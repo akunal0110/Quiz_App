@@ -1,0 +1,47 @@
+.quiz-result {
+  text-align: center;
+  padding: 20px;
+  animation: fadeIn 0.8s ease-in-out 0.2s both;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-result h1 {
+  font-size: 2rem;
+  color: #388E3C; 
+  margin-bottom: 15px;
+}
+
+.quiz-result p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #333; 
+}
+
+.restart-btn {
+  background-color: #388E3C;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.restart-btn:hover {
+  background-color: #2E7D32;
+  transform: scale(1.05); 
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
